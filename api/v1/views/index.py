@@ -6,4 +6,4 @@ import json
 @app_views.route("/status")
 def a():
     """mdkjsnkd"""
-    return json({"status": "OK"})
+    return json.dumps({"status": "OK"})
